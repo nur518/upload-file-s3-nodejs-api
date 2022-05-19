@@ -1,0 +1,20 @@
+{
+  "name": "upload-file-s3-nodejs-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.88.0",
+    "aws-sdk": "^2.1135.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0",
+    "uuid": "^8.3.2"
+  }
+}
